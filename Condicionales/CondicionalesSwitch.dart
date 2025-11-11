@@ -1,9 +1,12 @@
 import 'dart:io';
 
 void main() {
+
+  // Ingreso de datos
   print("Coloque su nota (A, B, C, D):");
   String nota = stdin.readLineSync()!;
 
+  // Uso de switch
   switch (nota) {
     case "A":
       print("Excelente!");
