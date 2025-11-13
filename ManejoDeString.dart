@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   // Ejemplo de palabra simple
   String palabra = "Hola";
